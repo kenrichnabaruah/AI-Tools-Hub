@@ -22,9 +22,9 @@ GREY COLOR: #EEF1FB
 /* ------------------------ */
 body {
   font-family: "Inter", sans-serif;
-  color: #eef1fb;
-  background-color: #0a1128;
-  border-bottom: 8px solid #4c6ef5;
+  color: #EEF1FB;
+  background-color: #0A1128;
+  border-bottom: 8px solid #4C6EF5;
 }
 
 .container {
@@ -52,7 +52,7 @@ h2 {
 }
 
 .btn {
-  background-color: #4c6ef5;
+  background-color: #4C6EF5;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -66,7 +66,7 @@ h2 {
 }
 
 .btn:hover {
-  background-color: #3b5bdb;
+  background-color: #3B5BDB;
 }
 
 .btn--small {
@@ -78,7 +78,7 @@ h2 {
 /* TOP BAR */
 /* ------------------------ */
 .topbar {
-  border-bottom: 1px solid #26305c;
+  border-bottom: 1px solid #26305C;
 }
 
 .topbar-inner {
@@ -96,14 +96,14 @@ h2 {
   font-size: 20px;
   letter-spacing: -0.5px;
   text-decoration: none;
-  color: #eef1fb;
+  color: #EEF1FB;
 }
 
 .brand .mark {
   width: 36px;
   height: 36px;
   border-radius: 8px;
-  background-color: #4c6ef5;
+  background-color: #4C6EF5;
   color: #fff;
   display: flex;
   align-items: center;
@@ -118,16 +118,16 @@ h2 {
   gap: 8px;
   font-size: 14px;
   font-weight: 500;
-  color: #eef1fb;
+  color: #EEF1FB;
   text-decoration: none;
-  border: 2px solid #26305c;
+  border: 2px solid #26305C;
   border-radius: 100px;
   padding: 8px 20px;
 }
 
 .back-link:hover {
-  border-color: #4c6ef5;
-  color: #4c6ef5;
+  border-color: #4C6EF5;
+  color: #4C6EF5;
 }
 
 /* ------------------------ */
@@ -150,7 +150,7 @@ h1 {
   font-size: 18px;
   line-height: 1.7;
   max-width: 520px;
-  color: #a6aec7;
+  color: #A6AEC7;
 }
 
 /* ------------------------ */
@@ -161,25 +161,23 @@ h1 {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: #8d95b8;
+  color: #8D95B8;
   margin-bottom: 24px;
 }
 
 .cat-card {
   display: block;
   text-decoration: none;
-  color: #eef1fb;
-  background-color: #0f1836;
-  border: 2px solid #26305c;
+  color: #EEF1FB;
+  background-color: #0F1836;
+  border: 2px solid #26305C;
   border-radius: 12px;
   padding: 32px 24px;
-  transition:
-    border-color 0.2s,
-    transform 0.2s;
+  transition: border-color 0.2s, transform 0.2s;
 }
 
 .cat-card:hover {
-  border-color: #4c6ef5;
+  border-color: #4C6EF5;
   transform: translateY(-4px);
 }
 
@@ -187,7 +185,7 @@ h1 {
   width: 48px;
   height: 48px;
   border-radius: 12px;
-  background-color: #16233f;
+  background-color: #16233F;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -203,7 +201,7 @@ h1 {
 .cat-card p {
   font-size: 16px;
   line-height: 1.6;
-  color: #a6aec7;
+  color: #A6AEC7;
   margin-bottom: 20px;
 }
 
@@ -212,14 +210,14 @@ h1 {
   align-items: center;
   justify-content: space-between;
   font-size: 14px;
-  color: #8d95b8;
+  color: #8D95B8;
   padding-top: 16px;
-  border-top: 1px solid #26305c;
+  border-top: 1px solid #26305C;
 }
 
 .cat-arrow {
   font-weight: 600;
-  color: #4c6ef5;
+  color: #4C6EF5;
 }
 
 /* ------------------------ */
@@ -240,7 +238,7 @@ h1 {
   width: 56px;
   height: 56px;
   border-radius: 12px;
-  background-color: #16233f;
+  background-color: #16233F;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -250,7 +248,7 @@ h1 {
 .page-eyebrow {
   font-size: 14px;
   font-weight: 600;
-  color: #4c6ef5;
+  color: #4C6EF5;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-bottom: 4px;
@@ -275,24 +273,24 @@ h1 {
   display: flex;
   align-items: center;
   gap: 16px;
-  border: 2px dashed #26305c;
+  border: 2px dashed #26305C;
   border-radius: 12px;
   padding: 24px;
-  background-color: #101a2e;
+  background-color: #101A2E;
 }
 
 .slot-num {
   width: 32px;
   height: 32px;
   border-radius: 100px;
-  border: 2px solid #26305c;
-  background-color: #0f1836;
+  border: 2px solid #26305C;
+  background-color: #0F1836;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 14px;
   font-weight: 600;
-  color: #8d95b8;
+  color: #8D95B8;
   flex-shrink: 0;
 }
 
@@ -303,15 +301,78 @@ h1 {
 .slot-title {
   font-size: 14px;
   font-weight: 500;
-  color: #5a6491;
+  color: #5A6491;
   text-transform: uppercase;
   letter-spacing: 0.3px;
 }
 
 .slot-plus {
   font-size: 20px;
-  color: #4a5578;
+  color: #4A5578;
   flex-shrink: 0;
+}
+
+/* ---- Ranked tool entry (filled) ---- */
+.rank-item {
+  display: flex;
+  gap: 20px;
+  border: 2px solid #26305C;
+  border-radius: 12px;
+  padding: 24px;
+  background-color: #0F1836;
+}
+
+.rank-num {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #4C6EF5;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.rank-body {
+  flex: 1;
+}
+
+.rank-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.rank-body h3 {
+  font-size: 20px;
+}
+
+.rank-visit {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4C6EF5;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.rank-visit:hover {
+  text-decoration: underline;
+}
+
+.rank-advantage {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #A6AEC7;
+}
+
+.rank-advantage strong {
+  color: #EEF1FB;
 }
 
 /* ------------------------ */
@@ -320,7 +381,7 @@ h1 {
 footer {
   margin-bottom: 48px;
   font-size: 14px;
-  color: #a6aec7;
+  color: #A6AEC7;
 }
 
 footer .footer-inner {
